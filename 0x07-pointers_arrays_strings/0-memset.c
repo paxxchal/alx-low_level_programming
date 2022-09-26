@@ -19,8 +19,3 @@ char *_memset(char *s, char b, unsigned int n)
 
     return(s);
 }
-
-int main()
-{
-    return(0);
-}
