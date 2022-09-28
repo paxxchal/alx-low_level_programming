@@ -18,12 +18,3 @@ void _puts_recursion(char *s)
         _puts_recursion(s + 1);
     }
 }
-
-/**
- * main - calls the other function
- * return: Always 0
- */
-int main()
-{
-    return(0);
-}
