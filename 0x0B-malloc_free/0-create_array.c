@@ -7,7 +7,8 @@
  * and initializes it with a specific char
  * @size: argument to the function
  * @c: argument to the function
- * return: NULL if size = 0 or fails, or a pointer to an array
+ *
+ * return: pointer to an array
  */
 
 char *create_array(unsigned int size, char c)
