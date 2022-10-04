@@ -30,6 +30,7 @@ char *create_array(unsigned int size, char c)
         c = s[i];
         _putchar(c);
         i++;
+        free(s);
         return(s);
     }
 }
