@@ -32,13 +32,3 @@ char *create_array(unsigned int size, char c)
     free(s);
     return(s);
 }
-
-/**
- * main - basic,
- * return: Always 0;
- */
-
-int main()
-{
-    return(0);
-}
