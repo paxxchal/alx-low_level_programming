@@ -8,7 +8,7 @@
  * @size: argument to the function
  * @c: argument to the function
  *
- * return: pointer to an array
+ * Return: pointer to an array
  */
 
 char *create_array(unsigned int size, char c)
