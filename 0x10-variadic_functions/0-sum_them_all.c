@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * sum_them_all - returns the sum of all its parameters
- * @n: parameter to the function
- * return: sum of all its parameters;
+ * sum_them_all - returns the sum of all its parameters.
+ * @n: parameter to the function.
+ * Return: sum of all it's parameters
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -14,7 +14,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	if (n == 0)
 	{
-		return(0);
+		return (0);
 	}
 
 	va_start(ap, n);
@@ -23,5 +23,5 @@ int sum_them_all(const unsigned int n, ...)
 		sum += va_arg(ap, int);
 	}
 	va_end(ap);
-	return(sum);
+	return (sum);
 }
