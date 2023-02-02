@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * print_dlistint - doubly linked list node structure
  * @h: pointer to head of list
