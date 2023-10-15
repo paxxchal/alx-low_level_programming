@@ -18,5 +18,5 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		i++;
 	}
 
-	return NULL; // Node does not exist at the specified index
+	return NULL;
 }
