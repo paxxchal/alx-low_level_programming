@@ -2,7 +2,10 @@
     "cSpell.words": [
         "Asterix",
         "cisfun",
-        "dlistint"
+        "dlistint",
+        "shash",
+        "shead",
+        "stail"
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
