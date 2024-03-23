@@ -1,0 +1,5 @@
+# Makefile for building the 'school' executable
+
+# Rule for building the executable
+all:
+	gcc -Wall -Wextra -std=c11 main.c school.c -o school
